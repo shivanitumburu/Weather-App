@@ -1,0 +1,14 @@
+.Currentweather {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .Currentweather img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Currentweather p {
+    font-size: 18px;
+  }
+  
