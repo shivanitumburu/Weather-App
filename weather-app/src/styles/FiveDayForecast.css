@@ -1,0 +1,15 @@
+.FiveDayForecast {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .Forecast {
+    text-align: center;
+  }
+  
+  .Forecast img {
+    width: 80px;
+    height: 80px;
+  }
+  
