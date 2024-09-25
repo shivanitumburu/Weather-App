@@ -1,0 +1,133 @@
+/* App.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Header h1 {
+  font-size: 32px;
+}
+
+.Header p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+
+.Searchbar {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Searchbar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.Searchbar button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.Searchbar button:hover {
+  background-color: #1976d2;
+}
+
+.Currentweather {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Currentweather h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.Currentweather img {
+  width: 100px;
+  height: 100px;
+}
+
+.Currentweather p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.FiveDayForecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Forecast {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+}
+
+.Forecast img {
+  width: 80px;
+  height: 80px;
+}
+
+.Forecast h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.Forecast p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .FiveDayForecast {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Forecast {
+    margin-bottom: 10px;
+  }
+}
