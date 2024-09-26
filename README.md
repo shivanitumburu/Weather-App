@@ -25,16 +25,16 @@ Files for this : App.js, App.css
 
 # Steps to start and run the application
 -> This is a React based application where the following command is used to create the react app :
-npx create-react-app weather-app # Creates a react app in the directory named weather-app
-cd weather-app # To navigate to the weather-app directory where the application is created and all the files related to it are present.
+# npx create-react-app weather-app #Creates a react app in the directory named weather-app
+# cd weather-app #To navigate to the weather-app directory where the application is created and all the files related to it are present.
 
 -> To install all the necessary packages and dependencies which are   present in packagr.json, run the following command:
-npm install
+# npm install
 
 -> Insert your openweather API key in the API_key variable in the API.js file.
 
 -> Use the following command to run the application:
-npm start
+# npm start
 
 -> Make sure that you have installed and updated the latest versions of Node.js and npm.
 
